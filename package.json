@@ -1,0 +1,33 @@
+{
+  "name": "relax-env",
+  "version": "1.0.0",
+  "description": "Environment management helper. More info: https://github.com/qx57/relax-env",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qx57/relax-env.git"
+  },
+  "scripts": {
+    "clean": "tsc --build --clean",
+    "build": "tsc --build",
+    "test": "npm run clean && npm run build && mocha ./test/*.test.js"
+  },
+  "keywords": [
+    "environment",
+    "node.js",
+    "typescript",
+    "relax-tools"
+  ],
+  "author": "qx57rush@gmail.com",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/qx57/relax-env/issues"
+  },
+  "homepage": "https://github.com/qx57/relax-env#readme",
+  "dependencies": {
+    "@types/node": "^17.0.41"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "default": {
+        "bar": {
+            "value_1": true,
+            "value_2": "pish-pish"
+        },
+        "foo": "bar"
+    },
+    "stage": {
+        "bar": "foo",
+        "foo": "bar"
+    }
+}

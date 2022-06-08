@@ -1,0 +1,21 @@
+{
+    "defaultEnvName": "stage",
+    "stage": {
+        "bar": "foo",
+        "foo": "bar"
+    },
+    "default": {
+        "bar": {
+            "value_1": true,
+            "value_2": "pish-pish"
+        },
+        "foo": "bar"
+    },
+    "ololo": {
+        "bar": {
+            "value_1": false,
+            "value_2": "pish"
+        },
+        "foo": "bar-2"
+    }
+}
