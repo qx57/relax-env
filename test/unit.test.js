@@ -2,6 +2,8 @@ const fs = require('fs');
 const assert = require('assert');
 const { afterEach } = require('mocha');
 
+process.env.relaxtest = true;
+
 const pack = '../index.js';
 
 const wrongEnvFile = 'test/ololo.json';
