@@ -1,4 +1,4 @@
-# relax-env
+# relax-env-json
 
 ## Requirements
 
@@ -23,10 +23,10 @@ and enjoy!
 
 ## Get started
 
-1. install ***relax-env***:
+1. install ***relax-env-json***:
 
 ```bash
-> npm i relax-env
+> npm i relax-env-json
 ```
 
 2. create in root path ***environments.json***:
@@ -49,7 +49,7 @@ More info below.
 3. add requirement into your test:
 
 ```js
-const env = require('relax-env);
+const env = require('relax-env-json');
 let defaultEnvironment = env.getEnvironment();
 ```
 
