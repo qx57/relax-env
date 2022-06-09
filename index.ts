@@ -1,13 +1,15 @@
 /**
  * Provided environment settings from root dir environment.json
  */
+
 /** Try to get environment filename */
+const defaultPath = process.env.relaxtest ? '.' : '../..';
 const envFile = process.env.file != undefined ? process.env.file : 'environments.json';
 
 /** try to load environments JSON */
 let envVar;
 try {
-    envVar = require(`./${envFile}`);
+    envVar = require(`${defaultPath}/${envFile}`);
 } catch {
     throw new Error(`File ${envFile} not found!`);
 }

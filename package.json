@@ -1,6 +1,6 @@
 {
-  "name": "relax-env",
-  "version": "1.0.0",
+  "name": "relax-env-json",
+  "version": "0.0.2",
   "description": "Environment management helper. More info: https://github.com/qx57/relax-env",
   "main": "index.js",
   "repository": {
